@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+        <title>Coding Assesment L2 boilerplate</title>
+
+    </head>
+
+    <body>
+        <section class="section">
+            <div class="container">
+                <div class="product-images">
+                    <div class="main-img">
+                        <img src="./assets/thumb1.png" alt="Product Image" />
+                    </div>
+                    <div class="thumb__images-container">
+                        <img src="./assets/thumb1.png" alt="Product thumbnail" class="thumb__img thumb__tab--active" />
+                        <img src="./assets/thumb2.png" alt="Product thumbnail" class="thumb__img" />
+                        <img src="./assets/thumb3.png" alt="Product thumbnail" class="thumb__img" />
+                        <img src="./assets/thumb4.png" alt="Product thumbnail" class="thumb__img" />
+                    </div>
+                </div>
+                <div class="product-details">
+                    <div class="product product__name-container"></div>
+                    <div class="product product__price-container">
+                        <div class="product-offer"></div>
+                    </div>
+                    <div class="product product__color-container">
+                        <div class="product-colors"></div>
+                    </div>
+                    <div class="product product__size-container">
+                        <div class="product-sizes"></div>
+                        <div class="button__container">
+                            <div class="btn__quantity">
+                                <button class="num-btn btn__dec">-</button>
+                                <input type="number" value="1" id="quantity" readonly />
+                                <button class="num-btn btn__inc">+</button>
+                            </div>
+                            <div class="cart__container">
+                                <button class="btn__addToCart">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="icon-btn">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                    </svg>
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product product__description-container"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <script src="./script.js"></script>
+    </body>
+
+</html>
